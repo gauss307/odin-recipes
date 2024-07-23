@@ -1,0 +1,20 @@
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 512px;
+    height: 512px;
+    margin-top: 20px;
+}
+
+body {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: rgb(211, 168, 113);
+    flex-direction: column;
+}
+
+.button {
+    width: 80px;
+    height: 40px;
+}
